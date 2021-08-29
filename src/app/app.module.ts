@@ -21,6 +21,7 @@ import { ComposerDetailsComponent } from './composer-details/composer-details.co
 import { Router, RouterModule } from '@angular/router';
 //Import FormsModule and ReactiveFormsModule from Angular
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ComposerImageComponent } from './composer-image/composer-image.component';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ContactComponent,
     AboutComponent,
     ComposerDetailsComponent,
+    ComposerImageComponent,
 
   ],
   imports: [
