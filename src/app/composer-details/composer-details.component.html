@@ -1,0 +1,23 @@
+<!--/*
+=====================================================
+; Title: Assignment 4.4 Async PipeLine
+; Author: Professor Krasso
+; Date 28 August 2021
+; Modified By: Jourdan Neal
+; Description: Using observables and build reactive application.
+=====================================================
+*/-->
+
+<div class="row">
+  <div class= "col-sm-12">
+    <!--List-group unordered list.-->
+    <ul class="list-group">
+      <!--List items with variables referring back to elements of Composer Class.-->
+      <li class="list-group-item"> Composer ID: {{ composer.composerId }}</li>
+      <li class="list-group-item"> Full name: {{ composer.fullName }}</li>
+      <li class="list-group-item">Genre: {{ composer.genre }}</li>
+    </ul>
+    <br />
+    <a routerLink="/composer-list" class="float-right">Return to Composers</a>
+  </div>
+</div>
